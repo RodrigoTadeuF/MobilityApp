@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">MobileProject</string>
-    <string name="title_screen_home">Total spending by modal</string>
+    <string name="title_screen_usage">Total spending by modal</string>
     <string name="title_screen_savings">Possible changes</string>
     <string name="title_screen_modals">General usage</string>
     <string name="car_heading_modal">Car</string>
