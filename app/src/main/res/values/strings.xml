@@ -7,4 +7,6 @@
     <string name="bike_heading_modal">Bike</string>
     <string name="subway_heading_modal">Subway</string>
     <string name="bus_heading_modal">Bus</string>
+    <string name="total_heading_modal">Total</string>
+
 </resources>
