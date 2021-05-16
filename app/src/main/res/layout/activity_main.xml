@@ -7,12 +7,47 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Welcome to the platform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf=""
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/usageButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Check your usage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf=""
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/savingsButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Check possible savings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf=""
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/modalsButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Check general usage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf=""
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="491dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
