@@ -35,7 +35,7 @@
             android:id="@+id/carText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_heading_modal"
+            android:text="@string/subway_heading_modal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.073"
@@ -44,7 +44,7 @@
             app:layout_constraintVertical_bias="0.109" />
 
         <ProgressBar
-            android:id="@+id/carUsage"
+            android:id="@+id/subwayUsageSavings"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -60,7 +60,7 @@
             android:id="@+id/carPercentageUsage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="60%"
+            android:text="20%"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.907"
@@ -69,7 +69,7 @@
             app:layout_constraintVertical_bias="0.164" />
 
         <ProgressBar
-            android:id="@+id/carSaving"
+            android:id="@+id/subwaySaving"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -85,7 +85,7 @@
             android:id="@+id/carPercentageSaving"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="60%"
+            android:text="10%"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.909"
@@ -94,7 +94,7 @@
             app:layout_constraintVertical_bias="0.23" />
 
         <ProgressBar
-            android:id="@+id/carSpent"
+            android:id="@+id/subwaySpent"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -110,7 +110,7 @@
             android:id="@+id/carSpentValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R$ 650,00"
+            android:text="R$ 150,00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
@@ -119,7 +119,7 @@
             app:layout_constraintVertical_bias="0.3" />
 
         <ProgressBar
-            android:id="@+id/carSpentSaving"
+            android:id="@+id/subwaySpentSaving"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -135,7 +135,7 @@
             android:id="@+id/carSpentSavingValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R$ 650,00"
+            android:text="R$ 60,00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
@@ -147,7 +147,7 @@
         <!--  Subway  -->
 
         <ProgressBar
-            android:id="@+id/subwayUsage"
+            android:id="@+id/bikeUsageSavings"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -160,7 +160,7 @@
             app:layout_constraintVertical_bias="0.499" />
 
         <ProgressBar
-            android:id="@+id/subwaySaving"
+            android:id="@+id/bikeSaving"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -176,7 +176,7 @@
             android:id="@+id/subwayPercentageSaving"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="60%"
+            android:text="20%"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.903"
@@ -185,7 +185,7 @@
             app:layout_constraintVertical_bias="0.567" />
 
         <ProgressBar
-            android:id="@+id/subwaySpent"
+            android:id="@+id/bikeSpent"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -201,7 +201,7 @@
             android:id="@+id/subwaySpentValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R$ 650,00"
+            android:text="R$ 0,00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.097"
@@ -210,7 +210,7 @@
             app:layout_constraintVertical_bias="0.639" />
 
         <ProgressBar
-            android:id="@+id/subwaySpentSaving"
+            android:id="@+id/bikeSpentSaving"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="317dp"
             android:layout_height="34dp"
@@ -226,7 +226,7 @@
             android:id="@+id/subwaySpentSavingValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R$ 650,00"
+            android:text="R$ 0,00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.094"
@@ -238,7 +238,7 @@
             android:id="@+id/subwayPercentageUsage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="60%"
+            android:text="10%"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.901"
@@ -249,7 +249,7 @@
             android:id="@+id/subwayText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/subway_heading_modal"
+            android:text="@string/bike_heading_modal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.069"
